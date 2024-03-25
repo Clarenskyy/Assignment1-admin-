@@ -33,7 +33,7 @@ namespace Assignment1
                 else
                 {
                     Console.WriteLine("\n\nIncorrect Password or Username, Please Try Again");
-                    Console.WriteLine("\t2 attemps left");
+                    Console.WriteLine("\t(2 attemps left)");
 
                     Console.Write("Enter username: ");
                     username = Console.ReadLine();
@@ -47,7 +47,7 @@ namespace Assignment1
                     else
                     {
                         Console.WriteLine("\n\nIncorrect Password or Username, Please Try Again");
-                        Console.WriteLine("\t1 attemps left");
+                        Console.WriteLine("\t(1 attemps left)");
 
                         Console.Write("Enter username: ");
                         username = Console.ReadLine();
