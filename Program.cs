@@ -1,4 +1,6 @@
-﻿using System;
+﻿using System; 
+//code by DELA CRUZ, CLARENCE KIETH M.
+//BSCPE 1-1
 namespace Assignment1
 {
     internal class Program
@@ -16,8 +18,8 @@ namespace Assignment1
             }
             else
             {
-                Console.WriteLine("\n\nIncorrect Password or Username");
-                Console.WriteLine("\t3 attemps left");
+                Console.WriteLine("\n\nIncorrect Password or Username, Please Try Again");
+                Console.WriteLine("\t(3 attemps left)");
 
                 Console.WriteLine("Enter username: ");
                 username = Console.ReadLine();
@@ -30,7 +32,7 @@ namespace Assignment1
                 }
                 else
                 {
-                    Console.WriteLine("\n\nIncorrect Password or Username");
+                    Console.WriteLine("\n\nIncorrect Password or Username, Please Try Again");
                     Console.WriteLine("\t2 attemps left");
 
                     Console.WriteLine("Enter username: ");
@@ -44,7 +46,7 @@ namespace Assignment1
                     }
                     else
                     {
-                        Console.WriteLine("\n\nIncorrect Password or Username");
+                        Console.WriteLine("\n\nIncorrect Password or Username, Please Try Again");
                         Console.WriteLine("\t1 attemps left");
 
                         Console.WriteLine("Enter username: ");
