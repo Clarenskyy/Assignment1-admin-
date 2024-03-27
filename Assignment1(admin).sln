@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1(admin)", "Assignment1(admin).csproj", "{D879D15A-2C59-4BD3-9ED9-FACFA70245F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1(admin)", "Assignment1(admin).csproj", "{D879D15A-2C59-4BD3-9ED9-FACFA70245F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1.2(numbers)", "..\Assignment1.2(numbers)\Assignment1.2(numbers).csproj", "{7C24524A-BA0E-4D99-BE55-73D1B84C9D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2(numbers)", "..\Assignment1.2(numbers)\Assignment2(numbers).csproj", "{7C24524A-BA0E-4D99-BE55-73D1B84C9D31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment3(conversion)", "..\Assignment3\Assignment3(conversion).csproj", "{4D6E84C9-4103-4292-9C4C-FF2D58289159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7C24524A-BA0E-4D99-BE55-73D1B84C9D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C24524A-BA0E-4D99-BE55-73D1B84C9D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C24524A-BA0E-4D99-BE55-73D1B84C9D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6E84C9-4103-4292-9C4C-FF2D58289159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6E84C9-4103-4292-9C4C-FF2D58289159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6E84C9-4103-4292-9C4C-FF2D58289159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6E84C9-4103-4292-9C4C-FF2D58289159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
